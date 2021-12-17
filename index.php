@@ -64,6 +64,8 @@ for ($i = 0; $i < 15; $i++) {
     if (!in_array($number, $array)) {
         $number = rand(1, 50);
         $array[] = $number;
+    } else {
+        $i--;
     }
 };
 
