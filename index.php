@@ -1,5 +1,4 @@
-<!-- Snack 6
-Utilizzare questo array: https://pastebin.com/CkX3680A. Stampiamo il nostro array mettendo gli insegnanti in un rettangolo grigio e i PM in un rettangolo verde.
+<!-- 
 
 Snack 7
 Creare un array contenente qualche alunno di un'ipotetica classe. Ogni alunno avrà Nome, Cognome e un array contenente i suoi voti scolastici. Stampare Nome, Cognome e la media dei voti di ogni alunno. -->
@@ -87,3 +86,34 @@ echo $modifiedParagraph;
 
 ?>
 
+<!-- Snack 6
+Utilizzare questo array: https://pastebin.com/CkX3680A. Stampiamo il nostro array mettendo gli insegnanti in un rettangolo grigio e i PM in un rettangolo verde. -->
+
+<?php
+ 
+ echo '<h2>Snack 6</h2>';
+
+    $db = [
+        'teachers' => [
+            [
+                'name' => 'Michele',
+                'lastname' => 'Papagni'
+            ],
+            [
+                'name' => 'Fabio',
+                'lastname' => 'Forghieri'
+            ]
+        ],
+        'pm' => [
+            [
+                'name' => 'Roberto',
+                'lastname' => 'Marazzini'
+            ],
+            [
+                'name' => 'Federico',
+                'lastname' => 'Pellegrini'
+            ]
+        ]
+    ];
+
+?>
