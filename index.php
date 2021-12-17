@@ -37,7 +37,6 @@ $posts = [
 
 
 $posts_dates = array_keys($posts);
-var_dump($posts_dates);
 
 for ($i = 0; $i < count($posts); $i++) {
     echo $posts_dates[$i] . '<br>';
@@ -45,7 +44,7 @@ for ($i = 0; $i < count($posts); $i++) {
     for ($j = 0; $j < count($posts[$posts_dates[$i]]); $j++) {
         echo $posts[$posts_dates[$i]][$j]['title'] . '<br>';
         echo $posts[$posts_dates[$i]][$j]['author'] . '<br>';
-        echo $posts[$posts_dates[$i]][$j]['text'] . '<br>';
+        echo $posts[$posts_dates[$i]][$j]['text'] . '<br><br>';
     }
 };
 
